@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Your Action</title>
+</head>
+<body>
+  <h1>Confirm Your Action</h1>
+  <p>Email: <%= email %></p>
+  <form action="/confirm" method="post">
+    <button type="submit" name="action" value="signup">Sign Up</button>
+    <button type="submit" name="action" value="login">Log In</button>
+  </form>
+</body>
+</html>
